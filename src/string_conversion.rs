@@ -1,4 +1,6 @@
 /// Trait providing the method-namesake
+/// 
+/// Requires `std` feature.
 #[cfg(any(doc, test, doctest, feature = "std"))]
 pub trait GetLenBase10AsUsizeViaStringConversion {
     fn get_len_base_10_as_usize_via_string_conversion(&self) -> usize;

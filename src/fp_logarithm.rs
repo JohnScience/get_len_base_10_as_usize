@@ -3,6 +3,8 @@ use num_traits::{PrimInt, ToPrimitive, Unsigned};
 use dd_maths_traits::ranges::ClosedIntvl;
 
 /// Trait providing the method-namesake
+/// 
+/// Requires `semver_exempt` feature. Incomplete.
 pub trait TryEstimateLenBase10AsClosedUsizeIntvlViaFPLogarithm {
     fn try_estimate_len_base_10_as_closed_usize_intvl_via_fp_logarithm(
         &self,
