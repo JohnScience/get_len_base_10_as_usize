@@ -1,5 +1,5 @@
 #![cfg_attr(not(any(doc, test, doctest, feature = "std")), no_std)]
-#![doc = include_str!("./README.md")]
+#![doc = include_str!("../README.md")]
 
 #[cfg(any(doc, test, doctest, feature = "semver_exempt"))]
 #[doc(hidden)]
