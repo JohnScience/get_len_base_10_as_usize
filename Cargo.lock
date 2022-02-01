@@ -19,8 +19,35 @@ dependencies = [
 ]
 
 [[package]]
+name = "epsi"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "917a7ce5cf4761bbfceebff450ef9cab02d98087bf04f28eea3035dbe7da925b"
+
+[[package]]
+name = "epui"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f40c5d22454a05692c258a7537fe0a496f3f4b19d2c9045720c567306c493c29"
+
+[[package]]
 name = "get_len_base_10_as_usize"
-version = "0.1.0"
+version = "0.1.1"
+dependencies = [
+ "dd_maths_traits",
+ "get_len_base_10_as_usize_macros",
+ "is_signed_trait",
+ "min_max_traits",
+ "num-traits",
+ "take-until",
+ "zero_based_index",
+]
+
+[[package]]
+name = "get_len_base_10_as_usize"
+version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c364ce1f462936faa0d9d29bad8b1510d3d53529099e74513b7ef3d0bd6f7817"
 dependencies = [
  "dd_maths_traits",
  "is_signed_trait",
@@ -28,6 +55,19 @@ dependencies = [
  "num-traits",
  "take-until",
  "zero_based_index",
+]
+
+[[package]]
+name = "get_len_base_10_as_usize_macros"
+version = "0.1.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "5c1fa8869a2daff44844ed7396e3832b210c9404ff5e2226bb30f8529af9776b"
+dependencies = [
+ "get_len_base_10_as_usize 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "is_signed_trait",
+ "midpoint",
+ "proc-macro2",
+ "quote",
 ]
 
 [[package]]
@@ -47,6 +87,17 @@ name = "is_signed_trait"
 version = "0.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3b6092f7422729e88d00f3591be7cfcfbba1e6db09d5c68418ddc5e904ab08ba"
+
+[[package]]
+name = "midpoint"
+version = "0.1.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "4ac995bda97a9131f568571fa80f3e6890d0a30268300a72e42b0d2488b8deee"
+dependencies = [
+ "epsi",
+ "epui",
+ "primitive_promotion",
+]
 
 [[package]]
 name = "min_max_traits"
@@ -85,6 +136,12 @@ dependencies = [
 ]
 
 [[package]]
+name = "primitive_promotion"
+version = "0.1.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "1559f093fe0c43b221c7365433428294d1a8198b45f70bf1eb4a9c5cf0e85d14"
+
+[[package]]
 name = "proc-macro2"
 version = "1.0.36"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -95,9 +152,9 @@ dependencies = [
 
 [[package]]
 name = "quote"
-version = "1.0.14"
+version = "1.0.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "47aa80447ce4daf1717500037052af176af5d38cc3e571d9ec1c7353fc10c87d"
+checksum = "864d3e96a899863136fc6e99f3d7cae289dafe43bf2c5ac19b70df7210c0a145"
 dependencies = [
  "proc-macro2",
 ]

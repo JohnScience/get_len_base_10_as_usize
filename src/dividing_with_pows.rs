@@ -1,0 +1,12 @@
+use get_len_base_10_as_usize_macros::impl_get_len_base_10_as_usize_via_dividing_with_pows_of_2;
+
+pub trait GetLenBase10AsUsizeViaDivigingWithPowsOf2 {
+    fn get_len_base_10_as_usize_via_dividing_with_pows_of_2(&self) -> usize;
+}
+
+impl_get_len_base_10_as_usize_via_dividing_with_pows_of_2!(u8);
+impl_get_len_base_10_as_usize_via_dividing_with_pows_of_2!(u16);
+impl_get_len_base_10_as_usize_via_dividing_with_pows_of_2!(u32);
+impl_get_len_base_10_as_usize_via_dividing_with_pows_of_2!(u64);
+impl_get_len_base_10_as_usize_via_dividing_with_pows_of_2!(u128);
+impl_get_len_base_10_as_usize_via_dividing_with_pows_of_2!(usize);

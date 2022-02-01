@@ -1,4 +1,9 @@
 #![cfg_attr(not(any(doc, test, doctest, feature = "std")), no_std)]
+#![cfg_attr(
+    any(doc, test, doctest, feature = "const_trait_impl"),
+    feature(const_trait_impl)
+)]
+
 #![doc = include_str!("../README.md")]
 
 #[cfg(any(doc, test, doctest, feature = "semver_exempt"))]
@@ -20,6 +25,10 @@ pub use repeated_multiplication_by_10::GetLenBase10AsUsizeViaRepeatedMultiplicat
 #[doc(hidden)]
 mod max_len_base_10_as_usize;
 pub use max_len_base_10_as_usize::MaxLenBase10AsUsize;
+
+#[doc(hidden)]
+mod dividing_with_pows;
+pub use dividing_with_pows::GetLenBase10AsUsizeViaDivigingWithPowsOf2;
 
 pub trait GetLenBase10AsUsize {
     fn get_len_base_10_as_usize(&self) -> usize;

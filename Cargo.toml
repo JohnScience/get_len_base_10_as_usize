@@ -30,7 +30,10 @@ zero_based_index = "0.1.1"
 take-until = "0.1.0"
 min_max_traits = "0.1.0"
 is_signed_trait = "0.1.0"
+get_len_base_10_as_usize_macros = { version = "0.1.2" }
 
 [features]
+all = ["std", "semver_exempt", "const_trait_impl"]
 std = []
 semver_exempt = []
+const_trait_impl = ["get_len_base_10_as_usize_macros/const_trait_impl"]

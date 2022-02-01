@@ -1,7 +1,7 @@
 # Traits for getting length base 10 as usize
 
-This crate offers such traits as [`GetLenBase10AsUsize`], [`GetLenBase10AsUsizeViaRepeatedMultiplicationBy10`], 
-[`GetLenBase10AsUsizeViaStringConversion`], [`MaxLenBase10AsUsize`], and [`TryEstimateLenBase10AsClosedUsizeIntvlViaFPLogarithm`].
+This crate offers such traits as [`MaxLenBase10AsUsize`], [`GetLenBase10AsUsizeViaRepeatedMultiplicationBy10`], [`GetLenBase10AsUsize`], [`GetLenBase10AsUsizeViaDivigingWithPowsOf2`]
+[`GetLenBase10AsUsizeViaStringConversion`], and [`TryEstimateLenBase10AsClosedUsizeIntvlViaFPLogarithm`].
 
 # Example
 
@@ -35,3 +35,4 @@ be dual licensed as above, without any additional terms or conditions.
 [`GetLenBase10AsUsizeViaStringConversion`]: https://docs.rs/get_len_base_10_as_usize/latest/get_len_base_10_as_usize/trait.GetLenBase10AsUsizeViaStringConversion.html
 [`MaxLenBase10AsUsize`]: https://docs.rs/get_len_base_10_as_usize/latest/get_len_base_10_as_usize/trait.MaxLenBase10AsUsize.html
 [`TryEstimateLenBase10AsClosedUsizeIntvlViaFPLogarithm`]: https://docs.rs/get_len_base_10_as_usize/latest/get_len_base_10_as_usize/trait.TryEstimateLenBase10AsClosedUsizeIntvlViaFPLogarithm.html
+[`GetLenBase10AsUsizeViaDivigingWithPowsOf2`]: https://docs.rs/get_len_base_10_as_usize/latest/get_len_base_10_as_usize/trait.GetLenBase10AsUsizeViaDivigingWithPowsOf2.html
