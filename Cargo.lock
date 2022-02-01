@@ -33,9 +33,10 @@ checksum = "f40c5d22454a05692c258a7537fe0a496f3f4b19d2c9045720c567306c493c29"
 [[package]]
 name = "get_len_base_10_as_usize"
 version = "0.1.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "c364ce1f462936faa0d9d29bad8b1510d3d53529099e74513b7ef3d0bd6f7817"
 dependencies = [
  "dd_maths_traits",
- "get_len_base_10_as_usize_macros",
  "is_signed_trait",
  "min_max_traits",
  "num-traits",
@@ -45,11 +46,10 @@ dependencies = [
 
 [[package]]
 name = "get_len_base_10_as_usize"
-version = "0.1.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c364ce1f462936faa0d9d29bad8b1510d3d53529099e74513b7ef3d0bd6f7817"
+version = "0.1.2"
 dependencies = [
  "dd_maths_traits",
+ "get_len_base_10_as_usize_macros",
  "is_signed_trait",
  "min_max_traits",
  "num-traits",
@@ -63,7 +63,7 @@ version = "0.1.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "5c1fa8869a2daff44844ed7396e3832b210c9404ff5e2226bb30f8529af9776b"
 dependencies = [
- "get_len_base_10_as_usize 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "get_len_base_10_as_usize 0.1.1",
  "is_signed_trait",
  "midpoint",
  "proc-macro2",
