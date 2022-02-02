@@ -10,11 +10,10 @@ checksum = "cdb031dd78e28731d87d56cc8ffef4a8f36ca26c38fe2de700543e627f8a464a"
 
 [[package]]
 name = "dd_maths_traits"
-version = "0.1.4"
+version = "0.1.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "145099d2db578d8dfe25317e8626dae7f17e2cebe6383dca4840538e4fe55308"
+checksum = "af7fedc23cf3bfb2f63c46850fcd00ce71d6408d766e71733a2317062daa0c72"
 dependencies = [
- "num-bigint",
  "num-traits",
 ]
 
@@ -97,27 +96,6 @@ name = "min_max_traits"
 version = "0.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "9ad269bd6e7a39d200bd8efbef2ff6e4fa7b99fc5468d70b8649203b680627c3"
-
-[[package]]
-name = "num-bigint"
-version = "0.4.3"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f93ab6289c7b344a8a9f60f88d80aa20032336fe78da341afc91c8a2341fc75f"
-dependencies = [
- "autocfg",
- "num-integer",
- "num-traits",
-]
-
-[[package]]
-name = "num-integer"
-version = "0.1.44"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d2cc698a63b549a70bc047073d2949cce27cd1c7b0a4a862d08a8031bc2801db"
-dependencies = [
- "autocfg",
- "num-traits",
-]
 
 [[package]]
 name = "num-traits"
