@@ -51,6 +51,7 @@ dependencies = [
  "dd_maths_traits",
  "get_len_base_10_as_usize_macros",
  "is_signed_trait",
+ "max_len_base_10_as_usize",
  "min_max_traits",
  "num-traits",
  "take-until",
@@ -87,6 +88,12 @@ name = "is_signed_trait"
 version = "0.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "3b6092f7422729e88d00f3591be7cfcfbba1e6db09d5c68418ddc5e904ab08ba"
+
+[[package]]
+name = "max_len_base_10_as_usize"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "91e0bf646d836a877dd4fdbf5c4d5d5c63a147faf268aa017c9697d05170483b"
 
 [[package]]
 name = "midpoint"
