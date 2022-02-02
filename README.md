@@ -13,7 +13,7 @@ assert_eq!(u64::MAX_LEN_BASE_10_AS_USIZE, 20);
 
 # Sources of insipration
 
-* https://www.baeldung.com/java-number-of-digits-in-int
+* <https://www.baeldung.com/java-number-of-digits-in-int>
 
 # License
 

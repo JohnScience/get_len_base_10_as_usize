@@ -17,7 +17,7 @@ where
     T: PrimInt + Unsigned + ToPrimitive,
 {
     /// f64 can be very imprecise
-    /// https://en.wikipedia.org/wiki/Floating-point_arithmetic
+    /// <https://en.wikipedia.org/wiki/Floating-point_arithmetic>
     ///
     fn try_estimate_len_base_10_as_closed_usize_intvl_via_fp_logarithm(
         &self,

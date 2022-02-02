@@ -10,9 +10,9 @@ checksum = "cdb031dd78e28731d87d56cc8ffef4a8f36ca26c38fe2de700543e627f8a464a"
 
 [[package]]
 name = "dd_maths_traits"
-version = "0.1.3"
+version = "0.1.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5a65104db725228fc973c01bfb42d51d6233fe2e533594daef21f1766b67a672"
+checksum = "145099d2db578d8dfe25317e8626dae7f17e2cebe6383dca4840538e4fe55308"
 dependencies = [
  "num-bigint",
  "num-traits",
@@ -32,21 +32,7 @@ checksum = "f40c5d22454a05692c258a7537fe0a496f3f4b19d2c9045720c567306c493c29"
 
 [[package]]
 name = "get_len_base_10_as_usize"
-version = "0.1.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c364ce1f462936faa0d9d29bad8b1510d3d53529099e74513b7ef3d0bd6f7817"
-dependencies = [
- "dd_maths_traits",
- "is_signed_trait",
- "min_max_traits",
- "num-traits",
- "take-until",
- "zero_based_index",
-]
-
-[[package]]
-name = "get_len_base_10_as_usize"
-version = "0.1.2"
+version = "0.1.3"
 dependencies = [
  "dd_maths_traits",
  "get_len_base_10_as_usize_macros",
@@ -60,12 +46,12 @@ dependencies = [
 
 [[package]]
 name = "get_len_base_10_as_usize_macros"
-version = "0.1.2"
+version = "0.1.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5c1fa8869a2daff44844ed7396e3832b210c9404ff5e2226bb30f8529af9776b"
+checksum = "7272d5712a4a8279107f2e2de9e888f37fb3f1b09d5b1b48932f4d34e8f469ee"
 dependencies = [
- "get_len_base_10_as_usize 0.1.1",
  "is_signed_trait",
+ "max_len_base_10_as_usize",
  "midpoint",
  "proc-macro2",
  "quote",
