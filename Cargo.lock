@@ -32,7 +32,7 @@ checksum = "f40c5d22454a05692c258a7537fe0a496f3f4b19d2c9045720c567306c493c29"
 
 [[package]]
 name = "get_len_base_10_as_usize"
-version = "0.1.4"
+version = "0.1.5"
 dependencies = [
  "dd_maths_traits",
  "get_len_base_10_as_usize_macros",
