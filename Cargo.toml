@@ -31,7 +31,8 @@ take-until = "0.1.0"
 min_max_traits = "0.1.0"
 is_signed_trait = "0.1.0"
 max_len_base_10_as_usize = "0.1.0"
-get_len_base_10_as_usize_macros = "0.1.3"
+get_len_base_10_as_usize_macros = "0.1.8"
+#get_len_base_10_as_usize_macros = { path = "../get_len_base_10_as_usize_macros" }
 
 [dev-dependencies]
 dd_maths_traits = { features = ["all"] }
