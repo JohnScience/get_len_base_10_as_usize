@@ -22,6 +22,10 @@ pub use string_conversion::GetLenBase10AsUsizeViaStringConversion;
 mod repeated_multiplication_by_10;
 pub use repeated_multiplication_by_10::GetLenBase10AsUsizeViaRepeatedMultiplicationBy10;
 
+#[doc(hidden)]
+mod divide_and_conquer;
+pub use divide_and_conquer::GetLenBase10AsUsizeViaDivideAndConquerApproach;
+
 pub use ::max_len_base_10_as_usize::MaxLenBase10AsUsize;
 
 #[doc(hidden)]

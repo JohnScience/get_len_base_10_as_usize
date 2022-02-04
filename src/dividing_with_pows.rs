@@ -1,5 +1,6 @@
 use get_len_base_10_as_usize_macros::impl_get_len_base_10_as_usize_via_dividing_with_pows_of_2;
 
+/// Trait providing the method-namesake
 pub trait GetLenBase10AsUsizeViaDivigingWithPowsOf2 {
     fn get_len_base_10_as_usize_via_dividing_with_pows_of_2(&self) -> usize;
 }

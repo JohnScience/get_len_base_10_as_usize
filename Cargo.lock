@@ -46,15 +46,16 @@ dependencies = [
 
 [[package]]
 name = "get_len_base_10_as_usize_macros"
-version = "0.1.8"
+version = "0.1.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6f650b4b4c922d4f86e4d4bf3c52f3eee606f5111addac158f51a4479d38b186"
+checksum = "8c40f9495bb4aeddf1dcbff1172a14a7ab522cc9b4653be082ca1fe0c8d0c765"
 dependencies = [
  "is_signed_trait",
  "max_len_base_10_as_usize",
  "midpoint",
  "proc-macro2",
  "quote",
+ "syn",
 ]
 
 [[package]]
@@ -160,9 +161,9 @@ checksum = "73d4caf086b102ab49d0525b721594a555ab55c6556086bbe52a430ad26c3bd7"
 
 [[package]]
 name = "syn"
-version = "1.0.85"
+version = "1.0.86"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a684ac3dcd8913827e18cd09a68384ee66c1de24157e3c556c9ab16d85695fb7"
+checksum = "8a65b3f4ffa0092e9887669db0eae07941f023991ab58ea44da8fe8e2d511c6b"
 dependencies = [
  "proc-macro2",
  "quote",

@@ -31,11 +31,10 @@ take-until = "0.1.0"
 min_max_traits = "0.1.0"
 is_signed_trait = "0.1.0"
 max_len_base_10_as_usize = "0.1.0"
-get_len_base_10_as_usize_macros = "0.1.8"
-#get_len_base_10_as_usize_macros = { path = "../get_len_base_10_as_usize_macros" }
+get_len_base_10_as_usize_macros = "0.1.9"
 
 [dev-dependencies]
-dd_maths_traits = { features = ["all"] }
+dd_maths_traits = { version = "0.1.7", features = ["all"] }
 
 [features]
 all = ["std", "semver_exempt", "nightly"]
